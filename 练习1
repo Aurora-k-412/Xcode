@@ -27,7 +27,6 @@
 # 0 <= digits[i] <= 9
 # digits 不包含任何前导 0。
 
-
 def plusOne(digits):
     n = len(digits)
     for i in range(n - 1, -1, -1):
@@ -42,3 +41,5 @@ def plusOne(digits):
 print(plusOne([1,2,3]))   # 输出 [1,2,4]
 print(plusOne([4,3,2,1])) # 输出 [4,3,2,2]
 print(plusOne([9]))       # 输出 [1,0]
+
+
